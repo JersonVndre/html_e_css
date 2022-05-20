@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-Classe</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    /*Quando passar o mouse no texto contido na div, ele ficará azul*/
+    div:hover{
+      color: blue;
+      
+    }
+    /*Esconde o conteúdo do elemento filho da Div (o elemento p)*/
+    div>p{
+      display: none;
+    }
+    /*Mostra o conteúdo do elemento filho da div (o elemento p) com os estilos atibuidos pelas propriedades abaixo.*/
+    div:hover>p{
+      display: block;
+      background-color: gold;
+      width: 180px;
+      color:black;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h2>EXEMPLO 3</h2>
+  <p>Passe o mouse no texto abaixo:</p>
+  <div>
+    Passe o mouse aqui
+    <p>PAGA LÁ UMA BIRRA...</p>
+  </div>
+</body>
+</html>

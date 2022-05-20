@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-classes</title>
+  <style>
+     body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    /*USANDO FORMATANDO AS DIVS*/
+    div{
+      background-color: gray;
+      border: 1px;
+      border-color: black;
+      border-style: solid;
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      text-align: center;
+    }
+    /*QUANDO PASSAR O MOUSE SOBBRE AS DIVS, ELAS MUDAM DE COR CONSOANTE A SUA FORMATAÇÃO ABAIXO*/
+    .red:hover{
+      background-color: red;
+    }
+    .green:hover{
+      background-color: green;
+    }
+    .blue:hover{
+      background-color: blue;
+    }
+
+
+   /*LINKS*/
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover{
+      color: lightskyblue;
+    }
+
+    #link1:hover{
+      background-color: red;
+    }
+
+    #link2:hover{
+      background-color: green;
+    }
+
+    #link3:hover{
+      background-color: blue;
+    }
+
+  </style>
+</head>
+<body>
+  <h2>Fazendo links com a Pseudo-classe :hover</h2>
+  <h3>EXEMPLO 1</h3>
+  <p>Clique no <a id="link1" href="#">link</a> para ver o efeito</p>
+  <p>Clique no <a id="link2" href="#">link</a> para ver o efeito</p>
+  <p>Clique no <a id="link3" href="#">link</a> para ver o efeito</p>
+
+  <h3>EXEMPLO 2:</h3>
+  <div class="red">01</div>
+  <div class="green">02</div>
+  <div class="blue">03</div>
+</body>
+</html>

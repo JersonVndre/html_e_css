@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(197, 245, 245);
+
+}
+/*TÍTULO PRINCIPAL*/
+h1{
+  color: rgb(49, 49, 243);
+
+}
+
+#principal{
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+/*TEMAS SECUNDÁRIOS*/
+.tema{
+  text-align: left;
+  background-color: aqua;
+}
+
+/*SUBTÍTULOS*/
+h2{
+  color: rgb(20, 20, 145);
+
+}
+
+.basico{
+  text-align: right;
+  color: green;
+}
+.intermediario{
+  text-align: right;
+  color: rgb(158, 158, 0);
+}
+.avancado{
+  text-align: right;
+  color: red;
+}

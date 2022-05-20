@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>Para se criar uma lista ordenada usa-se a tag <strong>&lt;ol&gt;</strong> e aninha-se a tag <strong>&lt;li&gt;</strong> para numerar e determinar quantos items  constituem a lista:</p>
+    <ol>
+        <li>Acordar</li>
+        <li>Correr 5km</li>
+        <li>Tomar banho</li>
+        <li>Comer</li>
+        <li>Estudar</li>
+    </ol>
+    <p><strong>OBS:</strong> Usa-se o atributo (parâmetro) <strong>type=" "</strong> na tag de abertura da lista ordenada para determinar a forma em que os números dos items da lista serão exibidos e o parâmetro <strong>start =" ":</strong> que será responsável em determinar em que valor a contagem dos items iniciará. </p>
+    <ol type="a" start="a"> <!--O pararâmetro type recebe valores como: a,A,i,I-->
+        <li>Acordar</li>
+        <li>Correr 5km</li>
+        <li>Tomar banho</li>
+        <li>Comer</li>
+        <li>Estudar</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <p>Para se criar uma lista ordenada usa-se a tag <strong>&lt;ul&gt;</strong> e aninha-se a tag <strong>&lt;li&gt;</strong> para  determinar quantos items  constituem a lista:</p>
+    <ul>
+        <li>Fuba</li>
+        <li>Pão</li>
+        <li>Manteiga</li>
+        <li>Múkua</li>
+        <li>Kitaba</li>
+    </ul>
+    <p><strong>OBS:</strong> Usa-se o atributo (parâmetro) <strong>type=" "</strong> na tag de abertura da lista não ordenada para determinar a forma em que os marcadores de item serão exibidos.</p>
+    <ul type="circle"> <!--O pararâmetro type aceita valores como: circle, square e disc -->
+        <li>Fuba</li>
+        <li>Pão</li>
+        <li>Manteiga</li>
+        <li>Múkua</li>
+        <li>Kitaba</li>
+    </ul>
+    <h3>Misturando Listas (&lt;ol&gt; <small>e</small> &lt;ul&gt;)</h3>
+    <ol>
+        <li>Linguagens que desejo aprender em 2022:</li>
+        <ul type="square">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+        </ul>
+        <li>Tecnologias que desejo aprender em 2023</li>
+        <ul type="square">
+           <li>React</li>
+           <li>Bootstrap</li>
+           <li>Vue</li> 
+        </ul>
+    </ol>
+    <h3>Misturando as Listas 2 (&lt;ul&gt; <small>e</small> &lt;ol&gt;)</h3>
+    <ul>
+        <li>Tecnologias que desejo aprender em 2022:</li>
+        <ol type="1">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+        </ol>
+        <li>Tecnologias que desejo aprender em 2023:</li>
+        <ol>
+            <li>React</li>
+            <li>Bootstrap</li>
+            <li>Vue</li>
+        </ol>
+    </ul>
+    <h2>Lista de Definições</h2>
+    <p>Para se criar uma lista de definições usa-se a tag <strong>&lt;dl&gt;</strong> e aninham-se as tags <strong>&lt;dt&gt;</strong> que é o item a ser definido e <strong>&lt;dd&gt;</strong> que é a definição do item :</p>
+    <dl>
+        <dt>Toyota</dt>
+        <dd>Marca de carro japonesa.</dd>
+        <dt>Armani</dt>
+        <dd>Marca de roupa italia. </dd>
+    </dl>
+</body>
+</html>
