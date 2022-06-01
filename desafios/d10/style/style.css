@@ -36,6 +36,7 @@
   --fonte-destaque: 'Bebas Neue','Bebas', cursive;
   --fonte-android: 'Idroid', cursive;
 }
+html { scroll-behavior: smooth; }
 /*body*/
 body{
   background-color: var(--cor0);
@@ -171,7 +172,7 @@ div{
   position: relative;
   padding-bottom: 50%;
 }
-div > iframe{
+div > video{
   position: absolute;
   top:5% ;
   left: 5%;
